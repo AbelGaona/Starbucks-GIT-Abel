@@ -35,3 +35,24 @@
     color: #fff;
     font-size: 25px;
 }
+.main{
+    padding: 15px 15px 60px;
+    margin-top: 60px;
+}
+.main__imagen{
+    display: none;
+}
+.main__titulo{
+    font-size: 50px;
+    line-height: 1.2;
+}
+.main__titulo span{
+    color: #006241;
+}
+.main__parrafo{
+    font-weight: bolder;
+}
+.main__container-titulo-parrafo{
+    display: flex;
+    flex-direction: column;
+}

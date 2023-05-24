@@ -191,3 +191,31 @@
     top: -20px;
     right: -20px;
 }
+.footer{
+    background: black;
+    padding: 25px 15px;
+}
+.footer__container-user{
+    display: flex;
+    flex-direction: column;
+}
+.footer__link-user{
+    color: #006241;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.footer__container-sociales{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container-sociales i{
+    color: #006241;
+    font-size: 22px;
+}
+.footer__link-contactos{
+    color: #08af2c;
+    text-decoration: none;
+}

@@ -126,3 +126,68 @@
     background: yellow;
     border: 1px solid yellow;
 }
+.cards{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards__container-card{
+    background: #006241;
+    margin-top: 45px;
+    color: #fff;
+    position: relative;
+    width: 85%;
+}
+.cards__card-imagen{
+    width: 100%;
+}
+.cards__card-titulo span{
+    color: yellow;
+}
+.cards__card-texto{
+    padding: 15px 5px;
+}
+.cards__card-descripcion{
+    font-size: 14px;
+    margin: 7.5px 0 15px;
+}
+.cards__card-boton{
+    background: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 13px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 7.5px;
+    padding: 5px 10px;
+    transition: all 1s;
+    text-decoration: none;
+}
+.cards__card-boton:hover{
+    background: yellow;
+    border: 1px solid yellow;
+}
+.cards__container-boton{
+    display: flex;
+    flex-direction: column;
+}
+.cards__container-boton a {
+    width: 170px;
+
+}
+.cards__card-circulo{
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
